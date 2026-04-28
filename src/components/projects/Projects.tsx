@@ -25,7 +25,7 @@ export default function Projects() {
               <Project
                 title={t("Project_Biocrowny")}
                 date="January 2026 - March 2026"
-                url="https://github.com/andresdanielmtz"
+                url="https://github.com/andresdanielmtz/biocrownyOdoo"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_Biocrowny_First")}</li>
@@ -37,7 +37,7 @@ export default function Projects() {
               <Project
                 title={t("Project_OracleTask_Title")}
                 date="February 2025 - June 2025"
-                url="https://github.com/andresdanielmtz"
+                url="https://github.com/andresdanielmtz/TC3004B.Oracle"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_OracleTask_First")}</li>
@@ -49,7 +49,7 @@ export default function Projects() {
               <Project
                 title={t("Project_PuntoDonativo_Title")}
                 date="September 2024 - December 2024"
-                url="https://github.com/andresdanielmtz"
+                url="https://github.com/andresdanielmtz/puntodonativo"
               >
                 <ul className="ps-10 list-disc">
                   <li> {t("Project_PuntoDonativo_First")}</li>
