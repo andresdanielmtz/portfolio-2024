@@ -1,5 +1,5 @@
 import "./About.css";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/andresdanielmtz-cv.pdf";
 import { useTranslation } from "react-i18next";
 
 const About = () => {

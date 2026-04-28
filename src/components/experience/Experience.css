@@ -1,0 +1,29 @@
+.timeline {
+  position: relative;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.timeline-card {
+  position: relative;
+  margin-left: 1.25rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: rgba(15, 23, 42, 0.45);
+}
+
+.timeline-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .timeline-meta {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

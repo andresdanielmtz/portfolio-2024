@@ -71,8 +71,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" onClick={toggleMobileMenu}>
-                  Blog
+                <Link to="/experience" onClick={toggleMobileMenu}>
+                  Experience
                 </Link>
               </li>
             </ul>

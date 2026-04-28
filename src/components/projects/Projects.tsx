@@ -1,6 +1,6 @@
 import Project from "./ProjTemplate.tsx";
 import { useTranslation } from "react-i18next";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/andresdanielmtz-cv.pdf";
 import "./Projects.css";
 import LoadingBar from "./ProjectScrollbar.jsx";
 
@@ -23,49 +23,38 @@ export default function Projects() {
 
             <div className="flex flex-col space-y-4">
               <Project
-                title={t("Project_Seatrack")}
-                date="November 2023 - February 2024"
-                url="https://github.com/andresdanielmtz/seatrack-dev"
+                title={t("Project_Biocrowny")}
+                date="January 2026 - March 2026"
+                url="https://github.com/andresdanielmtz"
               >
                 <ul className="ps-10 list-disc">
-                  <li> {t("Project_Seatrack_First")}</li>
-                  <li> {t("Project_Seatrack_Second")}</li>
-                  <li> {t("Project_Seatrack_Third")}</li>
+                  <li> {t("Project_Biocrowny_First")}</li>
+                  <li> {t("Project_Biocrowny_Second")}</li>
+                  <li> {t("Project_Biocrowny_Third")}</li>
                 </ul>
               </Project>
 
               <Project
-                title={t("Project_BazApp")}
-                date="October 2023"
-                url="https://github.com/andresdanielmtz/BazApp"
+                title={t("Project_OracleTask_Title")}
+                date="February 2025 - June 2025"
+                url="https://github.com/andresdanielmtz"
               >
                 <ul className="ps-10 list-disc">
-                  <li> {t("Project_BazApp_First")}</li>
-                  <li> {t("Project_BazApp_Second")}</li>
-                  <li> {t("Project_BazApp_Third")}</li>
+                  <li> {t("Project_OracleTask_First")}</li>
+                  <li> {t("Project_OracleTask_Second")}</li>
+                  <li> {t("Project_OracleTask_Third")}</li>
                 </ul>
               </Project>
 
               <Project
-                title={t("Project_SpaceSymphony")}
-                date="October 2023"
-                url="https://github.com/andresdanielmtz/SpaceSymphony"
+                title={t("Project_PuntoDonativo_Title")}
+                date="September 2024 - December 2024"
+                url="https://github.com/andresdanielmtz"
               >
                 <ul className="ps-10 list-disc">
-                  <li> {t("Project_SpaceSymphony_First")}</li>
-                  <li> {t("Project_SpaceSymphony_Second")}</li>
-                  <li> {t("Project_SpaceSymphony_Third")}</li>
-                </ul>
-              </Project>
-              <Project
-                title={t("ProjectTop_Title")}
-                date="April 2023 - June 2023"
-                url="https://github.com/andresdanielmtz/TC1030"
-              >
-                <ul className="ps-10 list-disc">
-                  <li> {t("ProjectTop_First")}</li>
-                  <li> {t("ProjectTop_Second")}</li>
-                  <li> {t("ProjectTop_Third")}</li>
+                  <li> {t("Project_PuntoDonativo_First")}</li>
+                  <li> {t("Project_PuntoDonativo_Second")}</li>
+                  <li> {t("Project_PuntoDonativo_Third")}</li>
                 </ul>
               </Project>
             </div>
